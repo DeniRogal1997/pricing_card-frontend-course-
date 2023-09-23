@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    padding: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+#card {
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    center
+}
+
+#top-section {
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+
+#bottom-section {
+    width: 100%;
+    height: 55%;
+}
+
+#bottom-left-section { 
+    background-color: lightblue;
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+}
+
+#bottom-right-section {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+}
+
+#top-section > h2 {
+    color: rgb(191, 49, 70);
+    margin-bottom: 15px;
+}
+
+#top-section > h4 {
+    color: rgb(114, 23, 23);
+    margin-bottom: 10px
+}
+
+#top-section > p {
+    color: rgb(89, 71, 71);
+}
+
+button {
+    color: white;
+    background-color: rgb(160, 160, 29);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Karla';
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    transform: scale(1.02);
+    transition-duration:0.2s;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: inline-block;
+}
+
+#bottom-left-section > h4 {
+    margin-bottom: 15px ;
+}
+
+
+#price2 {
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    top: -3px;
+    opacity: 0.7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
